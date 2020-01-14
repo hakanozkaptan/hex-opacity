@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0114a19d663d5671bc9869231d19249c",
+    "revision": "d916d79238377453c307b94220992635",
     "url": "/hex-opacity/index.html"
   },
   {
-    "revision": "49709bbe0a57d935dc2b",
+    "revision": "a77d8de8005542b53da7",
     "url": "/hex-opacity/static/css/main.cd692c0e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hex-opacity/static/js/2.7f880749.chunk.js.LICENSE"
   },
   {
-    "revision": "49709bbe0a57d935dc2b",
-    "url": "/hex-opacity/static/js/main.87935b45.chunk.js"
+    "revision": "a77d8de8005542b53da7",
+    "url": "/hex-opacity/static/js/main.b41d8e6e.chunk.js"
   },
   {
     "revision": "941510de40a1f3a4f6c1",
