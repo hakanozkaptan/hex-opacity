@@ -24,6 +24,12 @@
   color: white;
 }
 
+.App-title {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 30px;
+}
+
 form {
   max-width: 720px;
   width: 100%;
@@ -38,6 +44,7 @@ form {
   background: #aaabf4;
   font-size: 1rem;
   margin-top: 10px;
+  margin-bottom: 30px;
   padding: 20px;
   border-radius: 5px;
   display: inline-block;
@@ -76,7 +83,7 @@ form {
   display: flex;
   font-size: 2rem;
   justify-content: center;
-  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 @keyframes App-logo-spin {

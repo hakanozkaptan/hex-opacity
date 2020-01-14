@@ -1,46 +1,48 @@
 import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
+
+import { hexConverter } from 'utils';
 import './App.css';
 
 const App = () => {
-  const [value, setValue] = useState('');
   const [hexValue, setHexValue] = useState(null);
 
-  const percentToHex = p => {
-    if (p > 100 || p < 0) {
-      p = 100;
+  const { register, handleSubmit } = useForm({
+    mode: 'onChange'
+  });
+
+  const onSubmit = data => {
+    try {
+      setHexValue(hexConverter(data.transparency));
+    } catch (error) {
+      console.error('error=>', error);
     }
-
-    const intValue = Math.round((p / 100) * 255);
-    const hex = intValue.toString(16);
-    return hex.padStart(2, '0').toUpperCase();
-  };
-
-  const handleSubmit = e => {
-    e.preventDefault();
-    setHexValue(percentToHex(value));
-    setValue('');
   };
 
   return (
     <div className='App'>
       <header className='App-header'>
-        <form onSubmit={e => handleSubmit(e)}>
+        <div className='App-title'>Hexadecimal color code for opacity</div>
+        <form onSubmit={handleSubmit(onSubmit)}>
           <input
-            min='0'
-            max='100'
-            step='1'
             className='App-input'
-            value={value}
-            placeholder='0-100'
-            onChange={event => {
-              setValue(event.target.value);
-            }}
+            placeholder='Between 0 - 100'
+            name='transparency'
+            type='number'
+            ref={register({ required: true, min: 0, max: 100 })}
           />
           <button className='App-button' type='submit'>
-            Convert To Hex
+            <strong>Convert</strong>
           </button>
         </form>
         {hexValue && <div className='App-value'>{hexValue}</div>}
+        {hexValue && (
+          <div className='App-value'>
+            <small>
+              Example: #000000{hexValue} || #ffffff{hexValue} || #ff0050{hexValue}
+            </small>
+          </div>
+        )}
       </header>
     </div>
   );
