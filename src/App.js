@@ -40,7 +40,7 @@ const App = () => {
             Convert To Hex
           </button>
         </form>
-        <div className='App-value'>{hexValue && hexValue}</div>
+        {hexValue && <div className='App-value'>{hexValue}</div>}
       </header>
     </div>
   );
