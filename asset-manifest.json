@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hex-opacity/static/css/main.cd692c0e.chunk.css",
+    "main.js": "/hex-opacity/static/js/main.87935b45.chunk.js",
+    "main.js.map": "/hex-opacity/static/js/main.87935b45.chunk.js.map",
+    "runtime-main.js": "/hex-opacity/static/js/runtime-main.c373f7d4.js",
+    "runtime-main.js.map": "/hex-opacity/static/js/runtime-main.c373f7d4.js.map",
+    "static/js/2.7f880749.chunk.js": "/hex-opacity/static/js/2.7f880749.chunk.js",
+    "static/js/2.7f880749.chunk.js.map": "/hex-opacity/static/js/2.7f880749.chunk.js.map",
+    "index.html": "/hex-opacity/index.html",
+    "precache-manifest.6b9702285ee7ca93db5d6b11a98a7d44.js": "/hex-opacity/precache-manifest.6b9702285ee7ca93db5d6b11a98a7d44.js",
+    "service-worker.js": "/hex-opacity/service-worker.js",
+    "static/css/main.cd692c0e.chunk.css.map": "/hex-opacity/static/css/main.cd692c0e.chunk.css.map",
+    "static/js/2.7f880749.chunk.js.LICENSE": "/hex-opacity/static/js/2.7f880749.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c373f7d4.js",
+    "static/js/2.7f880749.chunk.js",
+    "static/css/main.cd692c0e.chunk.css",
+    "static/js/main.87935b45.chunk.js"
+  ]
+}
