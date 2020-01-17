@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hex-opacity/static/css/main.cedc36e2.chunk.css",
-    "main.js": "/hex-opacity/static/js/main.3a9131db.chunk.js",
-    "main.js.map": "/hex-opacity/static/js/main.3a9131db.chunk.js.map",
+    "main.css": "/hex-opacity/static/css/main.c183d628.chunk.css",
+    "main.js": "/hex-opacity/static/js/main.2fbdcccf.chunk.js",
+    "main.js.map": "/hex-opacity/static/js/main.2fbdcccf.chunk.js.map",
     "runtime-main.js": "/hex-opacity/static/js/runtime-main.c373f7d4.js",
     "runtime-main.js.map": "/hex-opacity/static/js/runtime-main.c373f7d4.js.map",
     "static/js/2.79662c9e.chunk.js": "/hex-opacity/static/js/2.79662c9e.chunk.js",
     "static/js/2.79662c9e.chunk.js.map": "/hex-opacity/static/js/2.79662c9e.chunk.js.map",
     "index.html": "/hex-opacity/index.html",
-    "precache-manifest.11e0c0c5de1e9b494051bea4f336c509.js": "/hex-opacity/precache-manifest.11e0c0c5de1e9b494051bea4f336c509.js",
+    "precache-manifest.a34f5789e8a8abe1fe8951a5b7d39e8c.js": "/hex-opacity/precache-manifest.a34f5789e8a8abe1fe8951a5b7d39e8c.js",
     "service-worker.js": "/hex-opacity/service-worker.js",
-    "static/css/main.cedc36e2.chunk.css.map": "/hex-opacity/static/css/main.cedc36e2.chunk.css.map",
+    "static/css/main.c183d628.chunk.css.map": "/hex-opacity/static/css/main.c183d628.chunk.css.map",
     "static/js/2.79662c9e.chunk.js.LICENSE": "/hex-opacity/static/js/2.79662c9e.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.c373f7d4.js",
     "static/js/2.79662c9e.chunk.js",
-    "static/css/main.cedc36e2.chunk.css",
-    "static/js/main.3a9131db.chunk.js"
+    "static/css/main.c183d628.chunk.css",
+    "static/js/main.2fbdcccf.chunk.js"
   ]
 }
