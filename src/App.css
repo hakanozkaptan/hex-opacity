@@ -81,9 +81,14 @@ form {
 .App-value {
   width: 100%;
   display: flex;
+  flex-direction: column;
   font-size: 2rem;
   justify-content: center;
   margin-bottom: 10px;
+}
+
+.App-text {
+  width: 100%;
 }
 
 @keyframes App-logo-spin {

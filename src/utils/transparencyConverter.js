@@ -1,4 +1,4 @@
-export const hexConverter = percent => {
+export const transparencyConverter = percent => {
   const intValue = Math.round((percent / 100) * 255);
   const hexValue = intValue.toString(16);
 

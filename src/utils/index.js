@@ -1,1 +1,2 @@
-export * from './hexConverter';
+export * from './transparencyConverter';
+export * from './rgbaConverter';
